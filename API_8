@@ -1,0 +1,79 @@
+  07--------------11-----------2024
+
+# APIs(application programming interface
+'''..what is an APIs----api is a set of rules and protocol;ls that allow one software application to
+ interact with another as well it will interact between the modules.
+..it define how different s/w component should impact
+..KEY CHARCTERSTICS OF APIs
+1-communication--api allow applications to communicate and share data or functionality.
+2-data exchange--apis often exchange data in formats like json(rest api) or xml (soap api ).
+3..modularity--they unable modular development where different components can work independently but together.
+4--paytm
+5--social media api--facebook,meta
+6--maps apis--google,safari
+
+
+Types of APIs--------
+rest api and soap api ,they are two type of approach
+..soap api(simple object acess protocol)---soap api is a protocol based api that follows a strict standard
+structure for message         and is typically used in environment requiring high security and reliability.
+..use area ----user interface, document of standard company
+
+..restapi---(representational state transfer api)---it is the dynamic  transfer of data between two module / application
+it follow the principle of rest,and archetectual style that user standard HTTP(hyper text transfer procol) methods
+(get.post,put,patch,delete)
+for communication and focus on resource represent by URLs
+
+keypoint of rest api==
+stainlesness ==each request is independent ,its mean the server doesnot retain any cliient context between
+the request.
+source-based==the api structure around 'sources' such as , users field,produc field, accessable via soecific urls.
+data format(use in json)
+NOTE==restapi is flexible and lightweight ,its ideal for web and mobile app, simplicity and scalability
+Archetector module==
+MVC-model vies controller   --mvc is a design pattern that commonly use for developing the application specially
+web application .
+     a.user interaction in view
+     b. view send input to contoler
+     c.control  souces the imput
+     d.  controles manupulate
+     e.  model updaates
+     model nodiffff view
+     new updates the display
+
+mvc steps request to rsponse
+-user action on view(send the request)
+-view send input to te contr
+-controler process input amd manupulate a the data
+  -model update the data and
+  -view retrive  updaes data from the models an d upda the display from uses.-
+  -view is responsible to access the used and send the respnse from nuser
+ -NOTE--model= manage data and business logicc
+ -view-manager  use interaction-controler-handles user input and interactinh logic
+ '''
+
+
+08-------------11------------2024
+
+'''what is mean of dev framework ?'''
+framework is a way its a process, its a archetecture some basic principle and the rules of developmental way.
+ A development framework is a set of tools and libraries that provide a structured  foundation for building
+s/w application.
+
+
+'''what is flask'''
+Flask is a light weight and open source web framework written in python .It's known as a micro framework
+because it provide the basic tools to create web application without the  need of last dependencies and complex
+configuration.
+
+'''advantages'''
+1..light weight and modular
+2..build in the development server and debugger
+3..restfull request handling
+4..microservices compatibility
+
+# 12---------------11---------------2024
+
+
+
+14---------------11------------------2024
