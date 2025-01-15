@@ -31,7 +31,7 @@ if--if the condition is 'True' then the statement will execute,if the condition 
 
 
 '''debug--it's a process to check each and every point in your programme we can analyse step-to-step execution
-from startt point to endpoint , its looks like step-to-reproduce.
+from start point to endpoint , its looks like step-to-reproduce.
 '''
 # a='madam'
 # if a==a[::-1]:
@@ -48,6 +48,8 @@ from startt point to endpoint , its looks like step-to-reproduce.
 # var = float(input('Enter a num:-'))
 # print(type(var))
 
+# user_num=int(input('Enter a num:-'))
+# st_num=str(user_num)
 
 '''else----------it's a keyword in python and it's have no conditions, it's fully depend upon the 'if' 
                  condition, incase 'if' condition was failed , then 'else' will execute.
@@ -79,6 +81,7 @@ from startt point to endpoint , its looks like step-to-reproduce.
 #     print('div by 3')
 # else:
 #     print('not div by both')
+
 
 
 '''location=input('Enter your location where to go:- ')'''
@@ -114,7 +117,8 @@ from startt point to endpoint , its looks like step-to-reproduce.
 # else:
 #     print('failed')
 
-'''1.Even or Odd:---- Write a program that checks if a given number is even or odd using if-elif-else statements.'''
+'''1.Even or Odd:---- Write a program that checks if a given number is even or odd using if-elif-else 
+statements.'''
 # num =int(input('Enter a num:-'))
 # if num%2==0:
 #     print(f'{num}even')
@@ -164,7 +168,7 @@ if days=='Monday':
     avl_seats = total_train_seat-15
     print(f'Avl seats are:-{avl_seats}')
 
-    booking_no_of_seats=int(input('enter how many seats you can  wants'))
+    booking_no_of_seats=int(input('enter how many seats you wants'))
     if booking_no_of_seats<=avl_seats:
         avl_seat = avl_seats-booking_no_of_seats
         print(f'After book the avl seats are in Monday:-{avl_seats}, and booking is :-{booking_no_of_seats}')

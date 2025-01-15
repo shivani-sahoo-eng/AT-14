@@ -1,197 +1,155 @@
-'''Where to use Python'''
+'''Where to use Python------------------------'''
 
-1)
-2)Web application Development - which coork with the Desktop application Development - Doconload is
-coom on Operating System.
 
-3) Database application Development - Small application perdep
+1)Web application Development - which work with the Desktop application Development - Download is on
+ Operating System.
 
-4) Desktop and web testing-each testing of performance 5) Date Analysis & very comp., predition, analysis the lituation
+2) Desktop application Development - download and work on OS.
+3) Database application Development - Small/big application develop
+4) Desktop and web testing-each testing of performance
+5) Date Analysis... both  very imp., prediction, analysis the situation
+6) Data Science....GUI
+7) Machine learning ....work as human, input manually
 
-6) Data Science
-
-7) Machine learning work as human, input manually
-
-8) Deep Learning senser learning
+8) Deep Learning sencer learning
 
 9) AI (Artificial Intelligence)
 
-10) Neural Network - what amount data fetch pentiulcer
+10) Neural Network - what amount data fetch in particular
 
-11)IOT device Covernet Of things) broad band, ofres, fibers,
-
-
-'''Limitation'''
-
-Payment system of mobile application development 2 Banking payment system
-
-..History of Python
-
-1991 Guido van Rusunce invent pathon on feb 20
-1989 he made merge - perl + C++ -rame abc
-
-Python is a POPs, concept (procedure Oriented programming Syntax)
-
-POP, OppoRise OOPs, (Object Oriented Programing Syntax)
+11)IOT device (Internet Of things) broad band, wires, fibers
 
 
+'''Limitation------------------------'''
 
- • Language High level languaga (only kraco 0-1 binary) Middle Level Language (mow A-Z char)
+1)Payment system of mobile application development
+2) Banking payment system
 
- -High Level language (everything acept
- OOPS & POPS nates
+..History of Python----------------------------
 
- •OOPS Object Oriented Programing Sun
+1991 Guido van Roussou invent python on feb 20
+1989 he made merge -- perl + C++ = abc(giving new name)
 
- → High Syntax (Clumgy)
+Python is a POPs concept (procedure Oriented programming Syntax)
 
- Seccere
+POPs opposite OOPs (Object Oriented Programing Syntax)
 
- High level
 
-・POPS (procentkere Oriented Programming Syntax)
 
-seasy Syntaw
+ • Language -----High level language (only know 0-1 binary)
+                 Middle Level Language (know A-Z char)
+                 High Level language (everything accept)
 
-Lorite like easy english synton
 
-Unsecure
 
-1991
 
--version (0.1 & 0.2)
 
-1994 -version 1 (cork from 1994-2000)
+                                       '''OOPS & POPS-----------------------'''
 
-Python is a Organisation not a Company
+ •OOPs Object Oriented Programing Syntax
+        High Syntax (Clumgy)
+        Secure
 
-2008 version 3
+・POPS (procedure Oriented Programming Syntax)
+        easy Syntax
+        White like easy english syntax
+        Unsecure
 
-bring 60k library & Change the syntan.
+.1991---version (0.1 & 0.2)
+.1994 ---version 1 (cork from 1994-2000)
+.Python is a Organisation not a Company
+.2008 version 3
+        bring 60k library & Change the syntax.
 
-1994-version I
+.1994-version 1
+.2000-version 2 used to 2007
+.2008-version 3 used to 2007
 
-2000-version 2 used to 2007
 
-2008 version 3
+                                                    '''Reserved word'''
 
-botn ще
-Reserved word -35 types/ keycuard
+Reserved word -35 types/ keyword
 
 import keyword
+keyword. Kwlist
 
-keyword. Kulist
-
-E'False "None" True', 'and', 'as',
-
-'assert'
-
-"continue"
-
-,'async'
-
-'def'
-
-'await', 'break', 'claw,
-
-"except, finally, 'for' 'not'
-
-lambda
-
-'raise'
-
-ronlocal
-
-yield
-
-'try'
-
-return'
-
-'with'
-
-elis,
-
-'or'
-
-Spous
-
-from global
-
-des
-
-Lupper Claus False : None, True python is case Sencitive
-
-'''Identifier'''
-
-give Naming - variable, function, Clas , module
-
-Function - It is independent in nature it is a ve.cuable block of code that performe a specific tark,
-
-- function are defined using the def' keyword, followed by the function name and parameters in parentheses.
-
-•Method Store in a class, depended in nature..
-
--It is similar to a function but is associate with an object
-
-- Method care functions defined within a
-class and operate on the data contained within that specific class instance..
-
-• - Module is a file containing python code. (Scech as functions, clases that can be Python scripts and variables) imported and wed in other or modules
-
-It help organize code and make it recusable programme across different part of a or multiple program
-
-wed to • vorriable Store the data, chich can then be referenced and manipulated in the code contracce data variable is notoning. -Variables containers for storing values, such as members, String, lists Or more Complex Objects.
-
-Class A class is a blueprint for creating object, which cere. Class instances of that A class operate data and behaviour (in the form of attributes and methods). that define the object's properties and autons.
-
-- Classes are a fundamental part of Oop in python.
-
-Inside the class, methods (functions coithin classes) define the behaviours, cand attributes define the of doject created Propentier from the Class.
+['False','None', 'True', 'and', 'as','assert','continue','async','def','await', 'break', 'class','except',
+finally, 'for' 'not','lambda','raise','nonlocal','yield','try','return','with','else','or','del','elif','in',
+'is','pass','from','global','if','with','import','while'.
 
 
-'''Rules of Identifier'''
+.upper Class 'False','None', 'True'
+.python is case Sensitive
+
+                                           '''Identifier----------'''
+
+.give Naming - variable, function, Class , module
+
+.Function - It is independent in nature. it is a reusable block of code that perform a specific task,
+.function are defined using the 'def' keyword, followed by the function name and parameters in parentheses.
+
+• Method--- Store in a class, depended in nature..
+          -It is similar to a function but is associate with an object
+          - Method care functions defined within a class and operate on the data contained within that
+          specific class instance..
+
+
+• - Module is a file containing python code. (Such as functions, classes  and variables that can be imported
+and used in other Python scripts   or modules)
+  - It help organize code and make it reusable  across different part of a programme or multiple program.
+
+
+• variable -Store the data, which can then be referenced and manipulated in the code. without  data variable is
+ nothing.
+  -Variables act as containers for storing values, such as members, String, lists Or more Complex Objects.
+
+
+. Class-- A class is a blueprint for creating object. which are instances of that class.  A class operate data
+ and behaviour (in the form of attributes and methods). that define the object's properties and actions.
+   - Classes are a fundamental part of Oop in python.
+   - Inside the class, methods (functions within classes) define the behaviours, and attributes define the
+Properties   of object created from the Class.
+
+
+                               '''Rules of Identifier---------------'''
 
 1)Case Sensitive(a ≠ A)
 
-2) Use only 'lowercase', 'uppercase', 'digit 'and separate with ' , '
+2) Use only 'lowercase', 'uppercase', 'digit' and separate with ' , '
 
 3)Not start with 'degit'
 
-a=10
-Print (c)
+.a=10
+Print (a)            10
 
-0=10
+.a=10
 
-aaHV Ulad-12-10
+aaHVUlad_12=10
 
-HVUlabc.= 10
+HVUlabc= 10
 
--HUV = 90
+_HUV = 90
 
-'''Casing'''
+                            '''Casing-------------'''
 
 1-Camel Casing.
-
 2-Snake Casing
 
-yo Camel Casing wed in making folder, Class module
+1--- Camel Casing used in making folder, Class, module
+---Use upper, lower and  digit
+---ex =StateBankOfIndia1997
 
-Use copper, locoer A digit
-
-- State Bank Of India 1997
-
-→File , variable, function, oncolule se
-
-• everthing is lower
-
-State-bank-of-India 1997
+2----Snake Casing used in File , variable, function, module
+----everything is lower
+----State_bank_of_India_1997
 
 
-'''feature of python'''
+                               '''feature of python--------'''
+
+                               
 Python is a dynamically type of language
 
-High Level Language Chuman read able formy) Python is a open source and freeware
+High Level Language (human read-able form) Python is a open source and freeware
 
 Independent platform working
 
@@ -201,13 +159,13 @@ Extensive Standard Literary -65K +
 
 Cross Platform Compatibility Support
 
-for mceltiple programming paradison Large Ecosystem and Community.
+for multiple programming paradison Large Ecosystem and Community.
 
-Scalability and frewibility
+Scalability and frezeability
 
 xi
 
-) Scepport Libraries for data fcrence cand
+) Support Libraries for data fcrence cand
 
 Machine Learning. embeddable & Censensible
 
@@ -216,13 +174,14 @@ xiii)
 
 xiv Readable and mintainable Code
 
-Xu) Automated Garbage Collcetion xvi) Robust framework for web Development
+Xu) Automated Garbage Collection
+xvi) Robot framework for web Development
 
 xvii) Popular in Scripting and Automation
 
-Avil) Simple & easy to learn,
+xviii) Simple & easy to learn,
 
-xix) Interpreted language (line-by-line cueccator)
+xix) Interpreted language (line-by-line accuator)
 
 xx) yera library - Jpython, Jython
 
@@ -254,9 +213,9 @@ print (a)
 a=20
 print (a)
 
-data automatically delete ist
-The process is called "memory management" by "private heap" - operator,
-Garbage and Store old data-"Garbage Collector" The  process is called "Garbage Collection"
+----data automatically delete ist
+----The process is called "memory management" by "private heap" - operator,
+----Garbage and Store old data-"Garbage Collector" The  process is called "Garbage Collection"
 
 '''Data type'''
 
@@ -365,4 +324,19 @@ Data type (int, float, Gmplew, boolean, String)
 '''Data Structure'''
 
 (List, tuple, Set, frozenset, bytes, bytearray, range, Dictionary, None)
+
+
+Class
+
+
+
+
+
+
+
+
+
+
+
+
 

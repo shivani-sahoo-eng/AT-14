@@ -4,11 +4,11 @@ automatically it will happend .it is a unit where we store the logic and call th
 
 
 
----------Function(only use parameter , don't use user input)
------Function is a  rap of code ,inside the function as a programmer we write logic here .
--------in a pr
+------Function(only use parameter , don't use user input)
+-----Function is a  wrapper  code , based upon requirement we call the logic based on function name inside the function as a programmer we write logic here .
+------in a pr
 ------package/unit/container who contain the logic .
------advantage
+------advantage
              .code reusability
              .code efficiency
              .less-time consuming
@@ -16,23 +16,92 @@ automatically it will happend .it is a unit where we store the logic and call th
 
 ------------types of function----
 1.inbuilt func--------those functions are provided by python ,it;s known as inbuilt func
-                       ex-print(),id(),dir(), help(), eva(),input(),type()
+                       ex-print(),id(),dir(), help(), eval(),input(),type(),datat type function
 2.user define function---------for the code efficiency and usability programmer rapup the logic in a function,
                          those func known as UDF.
 
 -----How to define a function ?(with using 'def' (define/ defination ) keyword.
------'def' means you start a function.
------function has a name. def function_name():
+-----'def' means you start a function.,,,write on snake casing
+-----function has a name=== def function_name():
+function pass a paraMETER
+one variable onlly pass one parametr
+..syntax===
 
-..syntax===def function_name():
+def function_name():
     statement/expression/logic entity
     return data
-function_name()
+function_name()'''
 
-example---def wish()
-    print ('hi good morning')
+# example---
 
-...what is Parameter(variable) and arguments ?---------
+
+# def wish():
+#     return 'hi good morning'
+# print(wish())
+
+# def wish(name):
+#     return f 'hi {name}  good morning'
+# print(wish('shiv')) '''
+
+# def wish(name,msg):
+#     return f'hi {name} {msg } '
+# print(wish('shiv','good evng'))
+
+# def addition(a,b):
+#     res=a+b
+#     return res
+# print(addition(10,20))
+
+# def even_odd(num):
+#     if num%2==0:
+#         return 'even'
+#     else:
+#         return 'odd'
+# print(even_odd(10))
+
+
+# waf without using slicing reverse a string
+
+# def reverse_string(st):-----------edit
+# new_st=''
+#     for i in st:
+#         new_st=i+new_st
+#
+# return new_st
+# print(reverse_string('ghj'))
+
+'''
+# len highest in string, country name
+st='i love india it is a best country'
+split_st=st.split()
+print(split_st)
+
+num=0
+for i in split_st:
+    if len(i)>num:
+        num=len(i)
+        # print (i,len(i))
+#   print(num,i)
+#     if num==len(i):
+#         print(num,i)
+
+for i in split_st:
+    if len(i)==num:
+        print(i,num)'''
+
+'''def highest_word_lenght(st):--------------edit
+    split=st.split()
+    num = 0
+    for i in split_st:
+        if len(i) > num:
+            num = len(i)
+
+
+    for i in split_st:
+        if len(i) == num:
+            print(i, num)
+'''
+''''...what is Parameter(variable) and arguments ?---------
  def function (Parameter):
     logic
 ----def func1()----parameter--------formal arguments
@@ -142,6 +211,14 @@ no. of parameter given , have to give same amount of argument
 
 
 '''
+def func(para1, para2, para3)
+    logic
+
+func(arg1,arg2)
+
+parameter depends upon argument, but argument not depends upon argument
+
+
 --Arguments having no. of parameter= Given same no of Argument
 Types of Arguments-------thetre are 4 types of arguments in python function
  1..Positional Arguments
@@ -152,7 +229,9 @@ Types of Arguments-------thetre are 4 types of arguments in python function
  '''
 
 '''1..Positional Arguments-it is the default argument in python , it will take based on parameter postion through 
- argument'''
+ argument
+ 
+ it should place on first not last'''
 # def sub(n1,n2):
 #     res=n1-n2
 #     return res
@@ -204,10 +283,18 @@ its called DA.'''
 # print(add(10,20))
 # print(add())
 
+# def add_sub(a,b):
+#     add=a+b
+#     sub=a-b
+#     return add,sub
+# print(add_sub(10,5))
+
+
+
 '''4..Variable length of Arguments--nth argument-(called star_argument)-----
     return data type =tuple
-1..  *args(nth variable arguments use , it is more  imp.) return type tuple
-2..   **kwargs(nth key-value variable arguments (use for dictionary)
+1..*args(argument-it only pick element) (nth variable arguments use , it is more  imp.) return type tuple
+2..  **kwargs(keyword-arguments)(nth key-value variable arguments (use for dictionary)
     *=or'''
 
 
@@ -217,6 +304,74 @@ its called DA.'''
 #     print(type(args))
 # add(10,20,67,78,9,0,9,'i')
 
+
+# tu=(10,20,30,40)
+# sum=0
+# for i in tu:
+#     sum=sum+i
+# print(sum)
+
+# or
+
+# def add(*args):
+#     sum =0
+#     for i in args:
+#         sum=sum+i
+#     print(sum)
+# add(10,20,30)
+
+# or
+
+'''def add(*args):
+    res =0
+
+    for i in args:
+        user_input = input('Enter your symbol')
+        if user_input=='+':
+            res=res+i
+        elif user_input=='-':
+            res=res-i
+        elif user_input=='*':
+            res=res*i
+        elif user_input == '/':
+            res = res / i
+        print(res)
+    print(res)
+add(10,20,30,40,50)
+
+'''
+# def add(*args):
+#     sum=0
+#     for i in args:
+#         sum=sum+i
+#     return sum
+# print(add(10,20,30,40))
+
+
+# make a human calculator
+# first_num=int('Enter your number:-')
+# symbol=input('Enter your symbol:-')
+# sec=int('Enter your number:-')
+
+'''res = 0
+while True:
+
+    symbol=input('Enter your symbol:-')
+    num = int(input('Enter a number:-'))
+
+    if symbol == '+':
+        res = res + num
+    elif symbol == '-':
+        res = res - num
+    elif symbol == '*':
+        res = res * num
+    elif symbol == '/':
+        res = res / num
+        print(res)
+    print(res)
+add(10, 20, 30, 40, 50)
+'''
+
 # def add_cal(*args):
 #     sum=0
 #     for i in args:
@@ -224,7 +379,8 @@ its called DA.'''
 #     return sum
 # print (add_cal(10,7,8,9))
 
-'''**kwargs'''
+'''**kwargs--------use in dictionary---based on parameter value pass
+'''
 # def nth_dict(**kwargs):
 #     print(kwargs)
 # print(nth_dict(name='g',age='45',salary='6700'))
@@ -282,8 +438,9 @@ its called DA.'''
 '''
 Types of Variables------
 
-1..Global Variable---access both in the function and outer of the function 
- 2..Local Variable---------only call in the function, not any where else'''
+1..Global Variable---outside of function when we declare a variable access by outside 
+of the function and inside the function known  as ,,access both in the function and outer of the function 
+ 2..Local Variable---------a variable declare inside of function, it will access in inside of the function only , not in other function and outside of the function knmoun asonly call in the function, not any where else'''
 
 '''Global Variable'''
 # a=10
@@ -300,7 +457,7 @@ Types of Variables------
 # print(f1())
 # print(a)
 
-'''convert as a global, then call '''
+'''convert local as a global, then call '''
 # def f1():
 #     global a
 #     a=10
@@ -321,6 +478,9 @@ Types of Variables------
 or we can say -Lambda(key-word)
 ..Lambda is a single line code and it have no name so it's called a annonymious function.
 ..Lambda used in the programme for the code optimisation 
+..less time taken
+..memory efficient
+
 ..Syntax:-----
 var=lambda parameter:statement/logic
 print(var(parameter))'''
@@ -349,13 +509,30 @@ Addition operation-----single line code
 2.list comprehension
 
 
-1..terenarry op.---when we will write if & else in a single statement,this statement known as terenarry op.
+1..terenarry op.---when we will write if & else in a single statement/single line code for a conditional statement,this statement known as terenarry op.
 It's a single statement of 'if' condition no elif is present
 syntax:--
 var=if_return if  condition  else else_return '''
 # n=10
 # var ='even' if n%2==0 else 'odd'
 # print(var)
+
+'''waf using lambda check the number is pallindrom
+or not using terennary operator
+
+var =lambda num: 'pallindrom' if str(num)==str(num)[::-1] else 'not pallindrom'
+print(var(121))
+'''
+
+
+# check highest number in lambda func provinding 3 variable
+# var=lambda a,b,c: 'a is biggest number' if a>b and a>c else 'b is biggest number' if b>c else 'c is biggest number'
+# print(var(5,3,9))
+
+'''write a lambda function providing the even number between 1-20
+'''
+# even=lambda: [i for i in range(1,21) if i%2==0]
+# print(even())
 
 
 # st='madam'
@@ -379,11 +556,24 @@ var=if_return if  condition  else else_return '''
 # li=[2,4,6,8]
 # var= list(lambda li:i*i for i in li)-------not happening
 # print(var(li))
-'''2.list comprehension--------list com it is a single line code , in square  braces we are iterate 
+
+'''2.list comprehension--------list com it is a single line code  to generate multiple element to generate foloop
+and store in a list, in square  braces we are iterate 
 and store the result'''
 
 # var=[i for i in range(1,11)]
 # print(var)
+
+
+'''store 1 to 20 in a list'''
+# li=[i for i in range(1,11) if i%2==0]
+# print (li)
+
+
+''' 1-1000 pallindrom numbers in a list'''
+# li=[i for i in range(1,1001) if str(i)==str(i)[::-1] and len(str(i))>2]
+# print (len(li))
+# print(li)
 
 
 '''wap divisible by 5'''
@@ -415,6 +605,19 @@ and store the result'''
 # print(fib_series)
 
 
+'''what is dictionary comprehension?
+it is a single code to generate a multiple elements help of
+for loop and store in a list'''
+
+# di={i:i**3 for i in range(1,11)}
+# print(di)
+
+# or
+
+# di={}
+# for i in range(1,11):
+#     di[i]=i**3
+# print(di)
 
 # HW===OP=['A','B','C','D',..............'Z']
 
@@ -679,7 +882,7 @@ print(cal(10,20))'''
 help of   'next()' , return type 'tuple' 
 '''
 
-function
+'''function
 parameter
 argument type
 variable type
@@ -687,7 +890,7 @@ variable type
 
 
 terenarry op
-list copm
+list copm'''
 
 
 

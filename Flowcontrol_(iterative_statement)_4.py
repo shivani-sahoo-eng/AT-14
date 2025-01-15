@@ -16,7 +16,7 @@ condition failed, if condition is alwz true then it's a infinite loop'
 '''
 syntax-
 for variable in collection_name
-    logic/statement expression
+    based on logic/statement expression write the statements.
 '''
 
 # li = [12,24,778,99,9]
@@ -28,6 +28,76 @@ for variable in collection_name
 # for i in li:
 #     print(i+5)
 # print(li)
+
+'''Without using slicing reverse a string'''
+# st='Bhubaneswar'
+# new_st=''
+# for i in st:
+#     new_st =i+new_st
+# print(new_st)
+
+# st='i love india'
+# se=set()
+# for i in st:
+#     se.add((i,st.count(i)))
+#     # print(i,st.count(i))
+# print(se)
+
+
+# without using method
+'''st='i love india'
+di={}
+for i in st:
+    if i in di:
+        di[i]+=1
+    else:
+        di[i]=1
+print(di)
+
+'''
+# anagrams=if two string length and letter same
+
+
+# 1=check the length first of both the string,if match then it is forward to next
+# 2=check the count of each accurance of both the string
+# 3=validate both the string count same or not
+# 4= if same it is a Anagram , if not same then, not a anagram
+
+'''st1='silent'
+st2='listen'
+if len(st1)==len(st2):
+    count_st1={}
+    count_st2={}
+
+    for i in st1:
+        if i in count_st1:
+            count_st1[i]+=1
+        else:
+            count_st1[i]=1
+
+    for i in st2:
+        if i in count_st2:
+            count_st2[i] +=1
+        else:
+            count_st2[i]= 1
+
+    if count_st1==count_st2:
+        print('Anagram')
+    else:
+        print ('not a Anagram')
+'''
+
+
+
+
+'''
+QS
+to reverse a string 
+check the string is pallindrom or not
+count the each accurance of string
+check the string is anagram or not
+'''
+
 
 
 # li = [12,24,778,99,9]
@@ -70,9 +140,75 @@ for variable in collection_name
 # print(lower)
 
 
+# check even or odd
+# li=[10,2,3,22,45,32,16,19,91,25]
+# for i in li:
+#     if i%2==0:
+#         print(i,'even')
+#     else:
+#         print(i,'odd')
+
+# check pallindrom or not
+'''li=[890,768,212,455,636,228,909]
+
+for i in li:
+    if i==str(i) and st(i)==st[::-1]:
+        print (i,'pallindrom')
+    else :
+        print(i,'not a pallindrom')'''
+
+# how to identify a string
+'''li=[10,78.89,7+9j,'qwerty',[78,90],'erty']
+
+for i in li:
+    if type(i)==str:
+        print(i)'''
+
+# output=10,20,30,40,50---------edit
+# li=[10,20,30,[40,50]]
+# for i in li :
+#     for j in i:
+#         if type(j)==li:
+#             print(j)
+#         else:
+#             print(i)
+
+
+'''li=[91,56,32,45,61,77,11,31,9,70,4]
+# swap the list without using swap=[4,9,11,31,32,45,56,61,70,77,91]
+
+n=len(li)
+for i in range(n):
+    for j in range(0,n-i-1):
+        if li[j]>li[j+1]:
+           li[j],li[j+1] =li[j+1],li[j]
+print(li)
+        # print(i,j)
+    # print(i,li[i])'''
+
+
+'''QS ==list
+-check the even and odd number in a list
+-find out the pallindrom number in a list
+-fetch the nested list element
+-sort the list '''
+
+'''li=[91,56,32,45,61,77,100,11,31,9,70,4]---------------------------------------edit
+# -find the highest,second highest and third highest number in a list
+n=len(li)
+for i in range(n):
+    for j in range(0,n-i-1):
+        if li[j]>li[j+1]:
+           li[j],li[j+1] =li[j+1],li[j]
+print(li)
+'''
+
+
+
 '''
 range()---it's a datatype in python and it's is a function as well. generating the sequence of number
           based on user values.
+range==generating the integer number
 range-----(start,end+1,step),by default step 1 not need to necessary
 range (10,21):(it needs iteration ,without iteration not works)
 '''

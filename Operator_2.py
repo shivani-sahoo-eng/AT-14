@@ -1,6 +1,6 @@
 '''
-operator---operator are special symbol or  keywords that help perform various operations on variables and
-values.
+operator(LABARS)---operator are special symbol or  keywords that help perform various operations on variables
+and values.
 1=Arithmetic operator
 2=relational or comparison operator(used to compare values and return a boolean result)
 3=logical op
@@ -72,10 +72,10 @@ print(a)==variable behaviour act as a data behaviour
 
 
 
-'''6==special op(identity, membership op)
+'''6==special op. (identity, membership op.)
     A..identity op(both the data has same identity prof,it checks the location of the variable and compare with
-another variable location, if both the location is same , the ans. should be
-True neither its false,, use 'is' operator)'''
+another variable location, if both the location is same , the ans. should be True neither its false,
+, use 'is' operator)'''
 # a=10
 # b=10
 # print(id(a))
@@ -115,7 +115,7 @@ The style guide of python , or designing or maintain style of python is handle
 # print(res)
 
 
-'''eval=====if not known the type it point-out'''
+'''eval=====if not known the data type it point-out'''
 # var=eval(input('Enter a number:-'))
 # var1=eval(input('Enter a number:-'))
 # res=var+var1

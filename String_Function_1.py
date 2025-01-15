@@ -86,7 +86,7 @@ example..------------list,tuple,set,frozenset,bytes,bytes-array,range,dictionary
 # print(st.endswith ('e'))
 
 
-'''find(f not present then send the -1 value) and index send - value error:substring not found'''
+'''find(if not present then send the -1 value) and index send  value error:substring not found'''
 # st='india is a best country'
 # print(st.find('is'))
 # print(st.index('is'))
@@ -157,7 +157,7 @@ example..------------list,tuple,set,frozenset,bytes,bytes-array,range,dictionary
 # print(st.strip())
 
 
-'''split.....is a separator the string,it takes by default space,otherwise point-out which separator you
+'''split.....is a separator of the string,it takes by default space,otherwise point-out which separator you
 want ,/*& (like this)
 collection=====store,it will encapulate the data by default separator ','
 '''
@@ -177,8 +177,9 @@ st='Ramesh@ Suresh@  Mahesh@'
 '''///////////////////////////////list[]
 # li=[21,67.90,7+9j,'qwerty',[78,90],{78,9},None,10,10]
 # print(type(li))
-1-List is a collection and behave like heterogenus (allow all type of data inside) obj. type
-2-allowed duplicate char.(allow  duplicacy)
+
+1-List is a collection and behave like hetrogenus (allow all type of data inside) obj. type
+2-allowed duplicate char.(allow  duplicasy)
 3-List is enclosed with [] and every element separate with another element help of ','
 4-List is growable in nature(mutability-change the elements of data collection)(can delete,add,manupulate)
 5-it follow index(position is important)
@@ -199,6 +200,8 @@ st='Ramesh@ Suresh@  Mahesh@'
 ''' ['append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']'''
 
 '''append------------add a single element last position of list'''
+
+# li=[1,2,7,8]
 # li.append(676)
 # print(li)
 # li.append([78,909,9])
@@ -232,6 +235,8 @@ st='Ramesh@ Suresh@  Mahesh@'
 # print(li.index(3))
 
 '''insert---add a single element in a specific position'''
+
+# li=[32,43,5,32,43,5,987,0]
 # li.insert(0,'jj')
 # print(li)
 
@@ -279,14 +284,16 @@ st='Ramesh@ Suresh@  Mahesh@'
 # tuple2=21,67.90,7+9j,'qwerty',[78,90],{78,9},None,10,10
 # print(type(tuple2))
 
-'''1-tuple is a hetrogenus obj. type
-#    2-tuple allowed duplicate char.
-#     3-tuple is enclosed with (),separate with ','
-#    4-tuple is not growable in nature(immutability-can't change the elements of data collection)(can not 
-       delete,add,manupulate)
-#    5-it follow index
-#    6-it is faster
+'''
+1-tuple is a hetrogenus obj. type
+2-tuple allowed duplicate char.
+3-tuple is enclosed with (),separate with ','
+4-tuple is not growable in nature(immutability-can't change the elements of data collection)(can not delete,
+  add,manupulate)
+5-it follow index
+6-it is faster
 7-only having two methods(count,index)'''
+
 # var=[1,2,7,8,'dfgh,hj',[5,8,0],True,22.2]
 # print(type(var))
 
@@ -309,7 +316,7 @@ st='Ramesh@ Suresh@  Mahesh@'
 
 
 
-'''////////////////////////////////////////////////set...{}---------------
+'''/////-------------------------set{}---------------
 1-enclosed with{}
 6-not hetrogeneous 
 8-it is homogeneous
@@ -479,6 +486,8 @@ frozenset not made but modify'''
 5.Idai(both postitive and negetive)'''
 
 
+
+
 # st = 'India is best, good to go'
 # print(st[9:13:])
 # print(st[-16:-12:])
@@ -590,5 +599,32 @@ heap-  only one variable store, store variable, no size,no iteration
 array---list , array different
 list[]=homogeneous, use data store, check programme,slower
 array[]=homogeneous, use at data analysis,faster'''
+
+'''def is_even_odd(num):
+    if num%2==0:
+        return 'even'
+    else:
+        return 'odd'
+print (is_even_odd(11))'''
+
+'''def is_pallindrom(str):
+    if str==str[::-1]:
+        return 'pallindrom'
+    else:
+        return 'not pallindrom'
+print (is_pallindrom('madam'))'''
+
+st='qwerty'
+new_st=''
+
+for i in st:
+    new_st=i+new_st
+
+
+
+
+
+
+
 
 

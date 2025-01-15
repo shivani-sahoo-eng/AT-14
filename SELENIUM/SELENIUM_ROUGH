@@ -1,0 +1,116 @@
+--Selenium is a Automation Tool====UI/GUI
+--Also Fronted  technology tool(logical=button,radio button,frame ,window,pop-up,drop down,alert
+                  & functional)
+-- work on Web application  ----web engine/search engine(chrome,firefox,mozila,safari,io,edge)
+--Selenium only test web application no mobile application or desktop application
+--Selenium is 4 types
+
+                   1=Web driver--it is a writing advance test scripts(support all lang. and in lang. type)
+--It ia a interface.
+--Class vs Interface
+---Class
+        --Class is a encapsulation (collection) of data and method
+--Interface--
+        --it is, specifies a set of methods for implementation.
+        --Defines only method signatures.
+        --it is a package with various codes
+        --some specific methods who works like class
+        --In interface many class and methods also present(from abc import, abstractmethod)
+--Abstraction is working  in interface where  many class and methods also present
+
+on webdriver ----selenium code will write , without webdriver selenium code not possible
+--use in logical and functional (user id field,password field, submit field,drop down, check box,
+      radio button, i frame)
+-- connect with particular application through web application using search engine
+
+from selenium import webdriver
+import time
+print(dir(webdriver))------(check methodology)
+driver=webdriver.Chrome()-----(work on which search engine you want)
+get (method)-give url , its open a link
+driver.get(url)-----run
+time.sleep(3)--------wait
+driver.close()------close the browser
+
+
+                2=GRID:-Allow  parallel test execution on multiple browser(chrome,firefox,etc) and env(cross
+  platform and cross browser)
+                       3=IDE(Integrated Development Environment) use in record and playback
+                       4=RC(Remote Control) is a tool who write selenium testcases in various programming
+  language. in market now it is not use . use in java like java and use in python like
+                        python .
+--
+
+----------------------------------------------------------------------------------------------------------------
+Location mapper:--
+
+
+
+website strts from html
+!DOCTYPE html = Declaration
+'''
+Tag=html
+identation=python
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+'''
+
+
+
+
+
+
+if condition:
+    statement
+
+
+<html> =====start  the tag
+<head>
+   <title> </title
+   <css
+   <js(java script)
+</head>
+<body>
+
+</body>
+</html>  ==end the tag
+
+
+'''
+<head>
+html=fully static (js makes it dynamic)
+
+integrate under html
+
+css=cascading style sheet----to provide style, design
+bootstrap==to layout/shadow
+js==java script==to dynamic
+'''
+
+<body>
+it indicates every tag
+
+
+text field write in input box
+
+--create a student registration form
+
+Registration Page
+name
+age
+class--drop
+password
+confirm password
+radio--optional (math,sci,phy,chem)
+
+
+
+type,name,id=aTTRIBUTE, it use for location traclking
+"TEXT NAME", "fname" =value
